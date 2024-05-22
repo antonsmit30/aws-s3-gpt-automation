@@ -1,0 +1,15 @@
+.typing-indicator span {
+    display: inline-block;
+    margin: 0 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #9b9b9b;
+    animation: typing 1.5s infinite ease;
+}
+
+@keyframes typing {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}

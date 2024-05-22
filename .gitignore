@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+*.wheel
+
+# Flask specific files
+instance/
+*.sqlite3
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# Compiled source
+*.out
+*.o
+*.a
+*.so
+
+# Transpiled source
+lib/
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# NPM
+package-lock.json
+yarn.lock
+
+# React build
+build/
+
+# Coverage reports
+coverage/
+.nyc_output/
+coverage-final.json
+
+# Sentry
+.sentryclirc
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Optional: If using Docker
+docker-compose.override.yml
+.dockerignore
+
+# All other
+data/
+backup/
