@@ -34,7 +34,7 @@ COPY main.py .
 ADD utils/ utils/
 
 # Expose port 5000
-EXPOSE 5000
+EXPOSE 8000
 
 # Start the Flask application with Gunicorn and eventlet for handling Socket.IO
 # CMD ["gunicorn", "-k", "eventlet", "--workers=1", "--bind=0.0.0.0:8000", "main:app"]

@@ -27,7 +27,8 @@ def log_all_attributes(func):
                         for item in value:
                             print(f"value: {item}")
                     else:
-                        print(f"key: {key}, value: {value}")
+                        if key != "_openai_key":
+                            print(f"key: {key}, value: {value}")
         return func(*args, **kwargs)
     return wrapper
 
